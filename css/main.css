@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "BigCaslon";
+  src: url("fonts/BigCaslon.ttf") format("truetype");
+  src: local("BigCaslon"); }
+@font-face {
+  font-family: "SuperRetroM54";
+  src: url("fonts/SuperRetroM54.ttf") format("truetype");
+  src: local("Super-Retro-M54"); }
+@font-face {
+  font-family: "SuperRetroM54";
+  src: url("/fonts/SuperRetroM54.eot");
+  src: url("/fonts/SuperRetroM54.eot?#iefix") format("embedded-opentype"), url("/fonts/SuperRetroM54.woff2") format("woff2"), url("/fonts/SuperRetroM54.woff") format("woff"), url("/fonts/SuperRetroM54.ttf") format("truetype"), url("/fonts/SuperRetroM54.svg#svgFontName") format("svg"); }
+@font-face {
+  font-family: "BigCaslon";
+  src: url("BigCaslon.eot");
+  src: url("BigCaslon.eot?#iefix") format("embedded-opentype"), url("BigCaslon.woff2") format("woff2"), url("BigCaslon.woff") format("woff"), url("BigCaslon.ttf") format("truetype"), url("BigCaslon.svg#svgFontName") format("svg"); }
+.intro {
+  width: 18.5%;
+  margin-left: 50px;
+  margin-top: 25px;
+  display: inline-block; }
+  .intro p {
+    font-family: "BigCaslon";
+    font-size: 1.5vw;
+    line-height: 0.9; }
+  .intro p span {
+    font-family: "SuperRetroM54"; }
+  .intro p span a {
+    text-decoration: none;
+    color: black; }
+  .intro p a {
+    color: black; }
+
+.portfolio {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 8%;
+  margin-left: 3%;
+  width: 60%;
+  position: relative; }
+  .portfolio img {
+    width: 100%; }
+
+.left {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.right {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+@media (max-width: 768px) {
+  .intro {
+    width: 63%;
+    margin-left: 10%;
+    margin-top: 8%;
+    display: inline-block; }
+    .intro p {
+      font-family: "BigCaslon";
+      font-size: 5vw; }
+    .intro p span {
+      font-family: "SuperRetroM54"; }
+    .intro p span a {
+      text-decoration: none;
+      color: black; }
+    .intro p a {
+      color: black; }
+
+  .portfolio {
+    display: block;
+    vertical-align: top;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 80%; }
+    .portfolio img {
+      width: 100%; } }

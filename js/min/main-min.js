@@ -1,0 +1,1 @@
+$(document).ready(function(){$(function(){for(var t=["web1","web2","web3","web4","web5"],c=t.length,e=$("#imageswap").attr("src"),i=0;c>i&&t[i]!==e;)i++;$(".right").click(function(){i=(i+1)%c,$(".slider").attr("src","img/"+t[i]+".jpg")}),$(".left").click(function(){i=(i+c-1)%c,$(".slider").attr("src","img/"+t[i]+".jpg")})})});
