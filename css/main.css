@@ -1,19 +1,11 @@
 @font-face {
-  font-family: "BigCaslon";
-  src: url("fonts/BigCaslon.ttf") format("truetype");
-  src: local("BigCaslon"); }
-@font-face {
-  font-family: "SuperRetroM54";
-  src: url("fonts/SuperRetroM54.ttf") format("truetype");
-  src: local("Super-Retro-M54"); }
-@font-face {
   font-family: "SuperRetroM54";
   src: url("/fonts/SuperRetroM54.eot");
-  src: url("/fonts/SuperRetroM54.eot?#iefix") format("embedded-opentype"), url("/fonts/SuperRetroM54.woff2") format("woff2"), url("/fonts/SuperRetroM54.woff") format("woff"), url("/fonts/SuperRetroM54.ttf") format("truetype"), url("/fonts/SuperRetroM54.svg#svgFontName") format("svg"); }
+  src: url("../fonts/SuperRetroM54.eot?#iefix") format("embedded-opentype"), url("../fonts/SuperRetroM54.woff2") format("woff2"), url("../fonts/SuperRetroM54.woff") format("woff"), url("../fonts/SuperRetroM54.ttf") format("truetype"), url("../fonts/SuperRetroM54.svg#svgFontName") format("svg"); }
 @font-face {
   font-family: "BigCaslon";
   src: url("BigCaslon.eot");
-  src: url("BigCaslon.eot?#iefix") format("embedded-opentype"), url("BigCaslon.woff2") format("woff2"), url("BigCaslon.woff") format("woff"), url("BigCaslon.ttf") format("truetype"), url("BigCaslon.svg#svgFontName") format("svg"); }
+  src: url("../fonts/BigCaslon.eot?#iefix") format("embedded-opentype"), url("../fonts/BigCaslon.woff2") format("woff2"), url("../fonts/BigCaslon.woff") format("woff"), url("../fonts/BigCaslon.ttf") format("truetype"), url("../fonts/BigCaslon.svg#svgFontName") format("svg"); }
 .intro {
   width: 18.5%;
   margin-left: 50px;
@@ -37,7 +29,8 @@
   margin-top: 8%;
   margin-left: 3%;
   width: 60%;
-  position: relative; }
+  position: relative;
+  cursor: pointer; }
   .portfolio img {
     width: 100%; }
 
