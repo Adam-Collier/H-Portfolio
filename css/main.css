@@ -8,13 +8,14 @@
   src: url("../fonts/BigCaslon.eot?#iefix") format("embedded-opentype"), url("../fonts/BigCaslon.woff2") format("woff2"), url("../fonts/BigCaslon.woff") format("woff"), url("../fonts/BigCaslon.ttf") format("truetype"), url("../fonts/BigCaslon.svg#svgFontName") format("svg"); }
 .intro {
   width: 18.5%;
-  margin-left: 50px;
-  margin-top: 25px;
-  display: inline-block; }
+  margin-left: 2%;
+  top: 0%;
+  display: inline-block;
+  position: absolute; }
   .intro p {
     font-family: "BigCaslon";
-    font-size: 1.5vw;
-    line-height: 0.9; }
+    font-size: 1.7vw;
+    line-height: 1.2; }
   .intro p span {
     font-family: "SuperRetroM54"; }
   .intro p span a {
@@ -24,11 +25,12 @@
     color: black; }
 
 .portfolio {
-  display: inline-block;
+  display: block;
   vertical-align: top;
   margin-top: 8%;
-  margin-left: 3%;
-  width: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 55%;
   position: relative;
   cursor: pointer; }
   .portfolio img {
@@ -48,12 +50,13 @@
   top: 0;
   right: 0; }
 
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .intro {
     width: 63%;
     margin-left: 10%;
     margin-top: 8%;
-    display: inline-block; }
+    display: block;
+    position: relative; }
     .intro p {
       font-family: "BigCaslon";
       font-size: 5vw; }
@@ -70,6 +73,39 @@
     vertical-align: top;
     margin: 0 auto;
     margin-top: 5%;
-    width: 80%; }
+    width: 80%;
+    transform: translateX(0%);
+    left: 0;
+    position: relative; }
     .portfolio img {
       width: 100%; } }
+@media (min-width: 939px) and (max-width: 1200px) {
+  .intro p {
+    font-size: 19px; } }
+@media (min-width: 451px) and (max-width: 938px) {
+  .intro {
+    width: 259px;
+    margin-left: 10%;
+    margin-top: 8%;
+    display: inline-block;
+    position: relative; }
+    .intro p {
+      font-family: "BigCaslon";
+      font-size: 20px; }
+    .intro p span {
+      font-family: "SuperRetroM54"; }
+    .intro p span a {
+      text-decoration: none;
+      color: black; }
+    .intro p a {
+      color: black; }
+
+  .portfolio {
+    display: block;
+    position: relative;
+    vertical-align: top;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 80%;
+    transform: translateX(0%);
+    left: 0; } }
