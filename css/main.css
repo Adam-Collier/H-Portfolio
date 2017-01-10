@@ -7,7 +7,7 @@
   src: url("BigCaslon.eot");
   src: url("../fonts/BigCaslon.eot?#iefix") format("embedded-opentype"), url("../fonts/BigCaslon.woff2") format("woff2"), url("../fonts/BigCaslon.woff") format("woff"), url("../fonts/BigCaslon.ttf") format("truetype"), url("../fonts/BigCaslon.svg#svgFontName") format("svg"); }
 .intro {
-  width: 18.5%;
+  width: 20%;
   margin-left: 2%;
   top: 0%;
   display: inline-block;
